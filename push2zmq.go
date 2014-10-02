@@ -161,7 +161,7 @@ func init() {
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "webhook2zmq"
+	app.Name = "push2zmq"
 	app.Usage = "Relay github push event through zeromq"
 	app.Version = "1.0.0"
 	app.Flags = []cli.Flag{
